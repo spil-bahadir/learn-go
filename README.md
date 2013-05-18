@@ -3,6 +3,9 @@ learn-go
 
 Learning Go repository. Lots of different examples of the language
 
+Book
+-----------------
+http://www.golang-book.com/
 
 MySQL Driver
 https://github.com/ziutek/mymysql
