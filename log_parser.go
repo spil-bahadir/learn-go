@@ -1,5 +1,5 @@
 // Processing 600K+ records below 8 seconds
-
+// with 7-8 MBytes of RAM :)
 package main
 
 import (
@@ -80,7 +80,7 @@ func main() {
 	go readLines2(file, line_feed)
 
 	for line := range line_feed {
-        go lineParser(line)
+        lineParser(line)
     }
 }
 
